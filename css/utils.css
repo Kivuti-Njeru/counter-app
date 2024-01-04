@@ -1,0 +1,101 @@
+/* xs */
+/* @media (min-width: 475px) {
+    
+} */
+
+/* sm */
+/* @media (min-width: 640px) {
+    
+} */
+
+/* md */
+/* @media (min-width: 768px) {
+   
+} */
+
+/* lg */
+/* @media (min-width: 1024px) {
+   
+} */
+
+/* xl */
+/* @media (min-width: 1280px) {
+    
+} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {
+    
+} */
+.box{
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.15),
+                -3px -3px 5px 0px rgba(0, 0, 0, 0.15);
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--size-xxs);
+    padding-right: var(--size-xxs);
+    transition: all .3s ease;
+    background-color: transparent;
+    /* border: .01rem solid #990030; */
+}
+
+.spacer {
+    margin-top: var(--size-5xl);
+}
+
+.btn{
+    transition: scale .15s ease;
+}
+
+.btn:hover,
+.btn:focus{
+    scale: 1.03;
+}
+
+
+
+/* xs */
+@media (min-width: 475px) {
+    .container {
+        max-width: 475px;
+    }
+}
+
+/* sm */
+@media (min-width: 640px) {
+    .container {
+        max-width: 640px;
+    }
+}
+
+/* md */
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+    .container {
+        max-width: 1536px;
+    }
+}
