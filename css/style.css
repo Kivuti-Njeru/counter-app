@@ -86,10 +86,17 @@ button{
   padding-right: var(--pad-m);
   padding-bottom: var(--pad-sm);
 
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.15),
+      -1px -1px 1px 0px rgba(0, 0, 0, 0.15),
+   0px 0px 2px 1px rgba(0, 0, 0, 0.15),
+      0px 0px 2px 1px rgba(0, 0, 0, 0.15);
+
   border-radius: var(--border-sm);
-  border: .03em solid var(--clr-dark);
+  border: none;
+  /* border: .03em solid var(--clr-dark); */
+  background: var(--clr-light);
   cursor: pointer;
-  color: #333333;
+  color: var(--clr-dark);
   display: grid;
   line-height: 1;
   letter-spacing: -0.015em;
