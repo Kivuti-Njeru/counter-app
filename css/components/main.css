@@ -40,10 +40,10 @@
     .decrease,
     .increase,
     .reset {
-            font-size: var(--size-lg);
-            font-weight: 200;
-            text-transform: capitalize;
-        }
+        font-size: var(--size-2xl);
+        font-weight: 200;
+        text-transform: capitalize;
+    }
 }
 
 /* sm */
