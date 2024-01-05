@@ -63,7 +63,7 @@ html {
 }
 
 body {
-
+  font-family: var(--font-oxygen);
   background-color: var(--clr-light);
   color: var(--clr-dark);
   position: relative;
@@ -81,15 +81,15 @@ svg {
 }
 
 button{
-  padding-top: var(--pad-sm);
-  padding-left:var(--pad-m);
-  padding-right: var(--pad-m);
-  padding-bottom: var(--pad-sm);
+  padding-top: .5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: .5rem;
 
-  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.15),
-      -1px -1px 1px 0px rgba(0, 0, 0, 0.15),
-   0px 0px 2px 1px rgba(0, 0, 0, 0.15),
-      0px 0px 2px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.15),
+      -1px -1px 4px 0px rgba(0, 0, 0, 0.15),
+      0px 0px 3px 1px rgba(0, 0, 0, 0.15),
+      0px 0px 3px 1px rgba(0, 0, 0, 0.15);
 
   border-radius: var(--border-sm);
   border: none;
